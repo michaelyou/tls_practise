@@ -61,6 +61,6 @@ if __name__ == '__main__':
         client(args.host, args.port, args.a)
 
     # Note
-    # 运行服务端：python tls_practise.py -s localhost.pem '' 1060
-    # 运行客户端：python tls_practise.py -a ca_localhost.ca localhost  1060
+    # 运行服务端：python safe_tls.py -s localhost.pem '' 1060
+    # 运行客户端：python safe_tls.py -a ca_localhost.ca localhost  1060
     # 可以通过sudo tcpdump -n port 1060 -i lo0 -X来抓包
